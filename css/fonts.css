@@ -1,0 +1,41 @@
+@font-face{
+
+font-family: 'MyriadPro';
+src: url('../fonts/MyriadPro.otf');
+font-weight: normal;
+font-style: normal;
+
+}
+@font-face{
+
+font-family: 'NeoSansPro';
+src: url('../fonts/NeoSansPro.ttf');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face{
+
+font-family: 'NeoSansProMedium';
+src: url('../fonts/NeoSansProMedium.ttf');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+	font-family: "NeoSansProBold";
+	src: url("../fonts/NeoSansProBold.eot");
+	src: url("../fonts/NeoSansProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/NeoSansProBold.woff") format("woff"),
+	url("../fonts/NeoSansProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'JazzBallRegular';
+	src: url("../fonts/JazzBallRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

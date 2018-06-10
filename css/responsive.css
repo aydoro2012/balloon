@@ -1,0 +1,52 @@
+@media (min-width: 320px) and (max-width: 1023px) {
+    .wrapper {
+        width: 80%;
+    }
+    section.products {
+        justify-content: center;
+    }
+    .filters {
+        padding-bottom: 20px;
+        height: auto;
+    }
+    .radio label {
+        margin-top: 17px;
+    }
+    .checkbox label {
+        margin-top: 10px;
+    }
+    .filter-by-number.checkbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .block-for-colors {
+        margin-right: 10px;
+}
+    .pre,
+    .next {
+        margin: 0px;
+    }
+    .products {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 427px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .filter-by-colors {
+        display: block;
+    }
+    .block-for-colors {
+        margin-top: -11px;
+    }
+    ul.pagination li:nth-child(7),
+    ul.pagination li:nth-child(8),
+    ul.pagination li:nth-child(4),
+    ul.pagination li:nth-child(6){
+    	display: none;
+    }
+}
